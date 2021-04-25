@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<mediaClip endTrimDuration="0" startTrimDuration="0" version="1">
+
+  <files>
+    <file id="2" path="Data\audio.wav"/>
+    <file id="1" path="Data\output.1.avi"/>
+    <file id="3" path="Data\output.2.avi"/>
+    <file id="4" path="Data\output.3.avi"/>
+    <file id="5" path="Data\output.4.avi"/>
+  </files>
+
+  <dataChunks>
+    <fileChunk fileId="1">
+      <range duration="3548000" startTime="0"/>
+      <audio fileId="2" startTime="0"/>
+    </fileChunk>
+    <fileChunk fileId="3">
+      <range duration="2869000" startTime="0"/>
+      <audio fileId="2" startTime="3548000"/>
+    </fileChunk>
+    <fileChunk fileId="4">
+      <range duration="4495000" startTime="0"/>
+      <audio fileId="2" startTime="6417000"/>
+    </fileChunk>
+    <fileChunk fileId="5">
+      <range duration="2175067" startTime="0"/>
+      <audio fileId="2" startTime="10912000"/>
+    </fileChunk>
+  </dataChunks>
+
+</mediaClip>
